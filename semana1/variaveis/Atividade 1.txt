@@ -1,0 +1,18 @@
+
+
+/*
+Atividade 1
+
+10
+10, 5
+*/
+
+/*
+Atividade 2
+
+10, 10, 10
+*/
+
+let horasDeTrabalho = prompt("Quantas horas você trabalha por dia?")
+let salárioDia = prompt("Quanto você recebe por dia?")
+alert('Você recebe ${t/p} por hora')

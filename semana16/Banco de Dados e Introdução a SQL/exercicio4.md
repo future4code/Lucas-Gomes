@@ -1,0 +1,1 @@
+A. Basicamente, a query faz uma pesquisa com base na condição imposta. Nesse caso, a condição era que o nome precisava começar com A ou J, E ter um salário de 300000 ou mais; caso uma das condições não for atendidas, as informações do ator ou da atriz não aparecem.

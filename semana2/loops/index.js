@@ -21,20 +21,20 @@
 
 // Exercício 1
 
-// const quantidadeDeBichoEstimacao = prompt(Number("Quantos bichos de estimação você tem?"))
+// const quantidadeDePetsUsuario = Number(prompt("Quantos pets você tem?"))
 
-//   if(quantidadeDeBichoEstimacao = 0) {
+// if (quantidadeDePetsUsuario === 0) {
 //     console.log("Que pena! Você pode adotar um pet!")
 // }
-//    else {  
-//     const nomesBichosEstimacao = prompt("Digite o nome do bicho de estimação.")
-//     var bichosEstimacao = []
 
-//     for (var i = 0; i < quantidadeDeBichoEstimacao; i++) {
-//         nomesBichosEstimacao = bichosEstimacao[i]
-//         console.log(bichosEstimacao)
-//     }
-// };
+// for (let i = 0; i !== quantidadeDePetsUsuario; i++) {       
+
+// const nomePetUsuario = prompt("Digite o nome de um pet.")
+// console.log(nomePetUsuario)
+// const contagemPets = []
+// contagemPets.push(nomePetUsuario)
+
+//         }
 
 // Exercício 2
 
@@ -45,8 +45,10 @@ console.log(arrayOriginal)
 {
     resultado = arrayOriginal[0]
     arrayLength = arrayOriginal.length
-    for (i = 1; i < arrayLength; i++)
+    for (i = 0; i !== arrayLength; i++)
     resultado /= 10;
+    novoArray = []
+    novoArray.push(resultado)
 }
 
 console.log(resultado)
